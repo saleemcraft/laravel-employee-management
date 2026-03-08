@@ -17,6 +17,4 @@ RUN curl -sS https://getcomposer.org/installer | php \
 
 RUN composer install
 
-RUN php artisan key:generate
-
 EXPOSE 80
