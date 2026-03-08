@@ -21,5 +21,7 @@ RUN a2enmod rewrite
 
 RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
 
+RUN chmod -R 775 storage bootstrap/cache
+
 
 EXPOSE 80
