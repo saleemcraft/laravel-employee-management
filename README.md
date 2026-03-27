@@ -13,6 +13,8 @@ Tech Stack:
 - Laravel
 - PHP
 - Blade
+- REST API
 - SQLite
 - Docker
 - Render Deployment
+
